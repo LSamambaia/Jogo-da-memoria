@@ -1,0 +1,82 @@
+@import url(reset.css);
+body{
+    
+    font-family: DeathNote;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+
+
+
+
+
+.login-form {
+    background: url("../images/fundo.jpg") center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    width: 200px;
+    height: 12rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.login-header {
+    background-color: transparent;
+    display: grid;
+    place-items: center;
+    margin-bottom: 3rem;
+
+}
+.login-header h1 {
+
+   
+    font-size: 2.2rem;
+    margin-top: 1.4rem;
+    text-shadow: 2.5px 2px #806F5E;
+}
+
+.login__input {
+    border: 2px;
+    width: 100%;
+    max-width: 350px;
+    padding: .6rem;
+    outline-color: antiquewhite;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    margin-bottom: 1.3rem;
+    box-shadow: 2px 2px 4px black;
+    font-family: DeathNote;
+}
+
+.login__button{
+    width: 100%;
+    max-width: 350px;
+    padding: .6rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: DeathNote;
+    background-color: #66635f;
+
+}
+
+.login__button:disabled{
+    background-color: rgba(172, 172, 172, 0.616);
+
+}
+
+@font-face {
+    font-family: DeathNote;
+    src: url(../font/PressStart2P.ttf);
+}
