@@ -182,11 +182,12 @@ const disabledCards = document.querySelectorAll(".disabled-card")
 const checkEndGame = () =>{
  
 
-    if (disabledCards.length === 20) {
+    if (disabledCards.length === 2) {
 
 
         localStorage.setItem("score", pontos);
         localStorage.setItem("recordTimer", currentTime)
+        clearInterval(this.loop);
         
         
 
@@ -218,7 +219,7 @@ const checkEndGame = () =>{
         }, 1500);
 
 
-        clearInterval(this.loop);
+        
 
         
 
