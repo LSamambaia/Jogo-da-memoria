@@ -179,8 +179,9 @@ const checkCards = ()=>{
 const disabledCards2 = document.querySelectorAll(".disabled-card")
 //Detectar fim do jogo
 
-const disabledCards = document.querySelectorAll(".disabled-card")
+
 const checkEndGame = () =>{
+    const disabledCards = document.querySelectorAll(".disabled-card")
  
 
     if (disabledCards.length === 2) {
