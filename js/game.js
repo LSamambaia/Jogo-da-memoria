@@ -184,7 +184,7 @@ const checkEndGame = () =>{
     const disabledCards = document.querySelectorAll(".disabled-card")
  
 
-    if (disabledCards.length === 2) {
+    if (disabledCards.length === 20) {
 
 
         localStorage.setItem("score", pontos);
