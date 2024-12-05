@@ -176,6 +176,7 @@ const checkCards = ()=>{
 
 }
 
+const disabledCards2 = document.querySelectorAll(".disabled-card")
 //Detectar fim do jogo
 
 const disabledCards = document.querySelectorAll(".disabled-card")
@@ -207,7 +208,7 @@ const checkEndGame = () =>{
 
 
         if (dialog === true) {
-            window.location.reload
+            window.location.reload()
 
             
         } else {
@@ -235,7 +236,7 @@ const checkEndGame = () =>{
 
 function perder (){
 
-    if (disabledCards.length < 20) {
+    if (disabledCards2.length < 20) {
      
        const allCards = document.querySelectorAll(".card");
        
