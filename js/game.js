@@ -182,7 +182,7 @@ const disabledCards = document.querySelectorAll(".disabled-card")
 const checkEndGame = () =>{
  
 
-    if (disabledCards.length === 20) {
+    if (disabledCards.length === 2) {
 
 
        
