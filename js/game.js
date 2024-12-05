@@ -185,8 +185,7 @@ const checkEndGame = () =>{
     if (disabledCards.length === 20) {
 
 
-        localStorage.setItem("score", pontos);
-        localStorage.setItem("recordTimer", currentTime)
+       
         clearInterval(this.loop);
         
 
